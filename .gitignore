@@ -1,0 +1,42 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+
+# Log files
+*.log
+
+# Docker-related
+docker-compose.override.yaml
+*.pid
+*.bak
+
+# Airflow
+airflow/logs/
+airflow/dags/__pycache__/
+airflow/airflow.db
+airflow/airflow-webserver.pid
+
+# DBT
+dbt/logs/
+dbt/my_project/target/
+dbt/my_project/dbt_modules/
+dbt/my_project/dbt_packages/
+dbt/my_project/manifest.json
+dbt/my_project/run_results.json
+
+# PostgreSQL
+postgres/data/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Jupyter Notebooks (if ever used)
+.ipynb_checkpoints/
