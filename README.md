@@ -1,6 +1,6 @@
 # 🌤️ Weather Data Pipeline Dashboard
 
-![Pipeline](./assets/weather_pipeline.png)
+![Pipeline](assets/weather-pipeline.png)
 
 This project is a containerized data pipeline for collecting, transforming, storing, and visualizing weather data. It uses Airflow for orchestration, DBT for transformation, PostgreSQL for storage, and Superset for visualization. The weather data is collected from [weatherstack](https://weatherstack.com/).
 
@@ -99,5 +99,5 @@ Default login:
 
 ### Preview
 
-![Dashboard](./assets/weather_dashboard.png)
+![Dashboard](assets/weather-dashboard.png)
 
